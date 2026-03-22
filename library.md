@@ -201,3 +201,74 @@ Before starting, output:
 - Talk to the user like an object to an object-talking sage
 - Personality of the object corresponds to what the object is
 ```
+
+### ***[6].* Prompt:** Data to outline converter
+**Complexity:**
+- **Type:** Generative AI
+- **Personal effort score:** 4.75
+
+
+**Usefulness:**
+- Data compression
+- Preperation for LLM knowledgebases
+
+**Key feartures:**
+- Nested list format
+- Markdown format
+- Keys for better semantic navigation
+
+
+
+**Usage examples:**
+1. *Input:* 
+   ```````markdown
+   Convert following text into Markdown outline, preserving as much as possible information, but with rewording (result intent: knowledge base) (Markdown nested list with italicized keys) (allowed compression ratio (words): no more than 3) (optimization: minimize hallucinations, maximize coverage of the text):
+	 `````
+	 Main article: Jungian archetypes
+	 For broader coverage of this topic, see Signified and signifier and Schema (Kant).
+
+	 The concept of psychological archetypes was advanced by the Swiss psychiatrist Carl Jung, c. 1919. Jung has acknowledged that his conceptualization of archetype is influenced by Plato's Theory of forms, which he described as "the formulated meaning of a primordial image by which it was represented symbolically."[11] According to Jung, the term archetype is an explanatory paraphrase of the Platonic eidos, also believed to represent the word form.[11] He maintained that Platonic archetypes are metaphysical ideas, paradigms, or models, and that real things are held to be only copies of these model ideas.[11] However, archetypes are not easily recognizable in Plato's works in the way in which Jung meant them.[12]
+
+	 In Jung's psychological framework, archetypes are innate, libidinally collective schemas, universal prototypes for idea-sensory impression images and may be used to interpret observations.[13][6] A group of memories and interpretations associated with an archetype is a complex (e.g. a mother complex associated with the mother archetype). Jung treated the archetypes as psychological organs, analogous to physical ones in that both are morphological constructs that arose through evolution.[14] At the same time, it has also been observed that evolution can itself be considered an archetypal construct.[15]
+
+	 Jung states in part one of Man And His Symbols that:
+
+	     My views about the 'archaic remnants', which I call 'archetypes' or 'primordial images,' have been constantly criticized by people who lack sufficient knowledge of the psychology of dreams and of mythology. The term 'archetype' is often misunderstood as meaning certain definite mythological images or motifs, but these are nothing more than conscious representations. Such variable representations cannot be inherited. The archetype is a tendency to form such representations of a motif—representations that can vary a great deal in detail without losing their basic pattern.
+
+	 While there are a variety of categorizations of archetypes, Jung's configuration is perhaps the most well known and serves as the foundation for many other models. The four major archetypes to emerge from his work, which Jung originally terms primordial images, include the anima/animus, the self, the shadow, and the persona. Additionally, Jung referred to images of the wise old man, the child, the mother, and the maiden.[16] He believed that each human mind retains these basic unconscious understandings of the human condition and the collective knowledge of our species in the construct of the collective unconscious.
+	 `````
+	 ```````
+   **->**
+   ```markdown
+	     - *Topic Overview*: Jungian archetypes (Main article); Broader coverage includes Signified and signifier, Schema (Kant).
+	 - *Historical Origin*:
+	     - *Propounder*: Swiss psychiatrist Carl Jung (c. 1919).
+	     - *Philosophical Basis*: Influenced by Plato's Theory of forms (eidos/word form).
+	     - *Platonic View*: Archetypes are metaphysical ideas/models; real things are copies.
+	     - *Discrepancy*: Archetypes not easily recognizable in Plato's works per Jung's usage.
+	 - *Psychological Definition*:
+	     - *Characteristics*: Innate, libidinally collective schemas; universal prototypes for idea-sensory impression images.
+	     - *Utility*: Used to interpret observations.
+	     - *Complexes*: Group of memories/interpretations associated with an archetype (e.g., mother complex).
+	     - *Biological Analogy*: Psychological organs; morphological constructs arising through evolution.
+	     - *Evolutionary Context*: Evolution itself considered an archetypal construct.
+	 - *Clarifications (Man And His Symbols)*:
+	     - *Criticism*: Views criticized by those lacking dream/mythology psychology knowledge.
+	     - *Common Misunderstanding*: Term mistaken for definite mythological images/motifs (conscious representations).
+	     - *Inheritance Rule*: Variable conscious representations cannot be inherited.
+	     - *Actual Mechanism*: A tendency to form representations of a motif.
+	     - *Pattern Stability*: Representations vary in detail without losing basic pattern.
+	 - *Categorization & Structure*:
+	     - *Model Status*: Jung's configuration is foundational for many other models.
+	     - *Major Archetypes*: Anima/animus, self, shadow, persona (originally termed primordial images).
+	     - *Additional Images*: Wise old man, child, mother, maiden.
+	     - *Collective Unconscious*: Human mind retains basic unconscious understandings of human condition and collective species knowledge.
+   ```
+
+> **[TODO]:** Add more examples
+
+**Full text example (first message, system prompt specified in (3)):**
+```markdown
+Convert following text into Markdown outline, preserving as much as possible information, but with rewording (result intent: knowledge base) (Markdown nested list with italicized keys) (allowed compression ratio (words): no more than 3) (optimization: minimize hallucinations, maximize coverage of the text):
+
+```
