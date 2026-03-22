@@ -109,7 +109,7 @@ Before starting, output:
    ```
 `````
 
-### ***[3].* Prompt:** Simple Relistic Roleplay assistant 
+### ***[3].* Prompt:** Simple Realistic Roleplay assistant 
 **Complexity:**
 - **Type:** Multi-turn AI
 - **Personal effort score:** 4.5
@@ -121,9 +121,7 @@ Before starting, output:
 
 **Key feartures:**
 - Natural language
-- Declaration against "assistant-speak"
-
-
+- A declaration against "assistant-speak"
 
 **Usage examples:**
 - *(see (4))*
@@ -181,8 +179,6 @@ Before starting, output:
 - **Personal effort score:** 3
 - **Built on:** (3): Simple Realistic Roleplay assistant
 
-
-
 **Usefulness:**
 - Inspiration source
 - Useful for some psychological corrections
@@ -190,7 +186,6 @@ Before starting, output:
 **Key feartures:**
 - Personality interpreted by image
 - Natural language
-
 
 **Usage examples:**
 > **[TODO]:** Add examples
@@ -207,7 +202,6 @@ Before starting, output:
 - **Type:** Generative AI
 - **Personal effort score:** 4.75
 
-
 **Usefulness:**
 - Data compression
 - Preperation for LLM knowledgebases
@@ -216,8 +210,6 @@ Before starting, output:
 - Nested list format
 - Markdown format
 - Keys for better semantic navigation
-
-
 
 **Usage examples:**
 1. *Input:* 
