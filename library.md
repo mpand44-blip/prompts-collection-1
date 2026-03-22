@@ -238,7 +238,7 @@ Before starting, output:
 	 While there are a variety of categorizations of archetypes, Jung's configuration is perhaps the most well known and serves as the foundation for many other models. The four major archetypes to emerge from his work, which Jung originally terms primordial images, include the anima/animus, the self, the shadow, and the persona. Additionally, Jung referred to images of the wise old man, the child, the mother, and the maiden.[16] He believed that each human mind retains these basic unconscious understandings of the human condition and the collective knowledge of our species in the construct of the collective unconscious.
 	 `````
 	 ```````
-   **->**
+   *Output:*
    ```markdown
 	     - *Topic Overview*: Jungian archetypes (Main article); Broader coverage includes Signified and signifier, Schema (Kant).
 	 - *Historical Origin*:
@@ -264,7 +264,7 @@ Before starting, output:
 	     - *Additional Images*: Wise old man, child, mother, maiden.
 	     - *Collective Unconscious*: Human mind retains basic unconscious understandings of human condition and collective species knowledge.
    ```
-
+   *License attribution:* Wikipedia article `Archetype` (<https://en.wikipedia.org/wiki/Archetype>, CC-BY-SA 4.0)
 > **[TODO]:** Add more examples
 
 **Full text example (first message, system prompt specified in (3)):**
