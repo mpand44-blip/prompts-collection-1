@@ -309,7 +309,7 @@ Convert following text into Markdown outline, preserving as much as possible inf
 - ***T:** Timeframe:* Of the game (default: 7 days)
 - ***F:** Average report frequency:* to the chat (default: 4 hours)
 - ***N:** Couple's members basic info:* (names, ages, ...).
-- ***L:** Additiona limits:* (default: none)
+- ***L:** Additional limits:* (default: none)
 
 ### Input
 
