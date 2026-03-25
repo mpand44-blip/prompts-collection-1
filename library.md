@@ -314,3 +314,30 @@ Convert following text into Markdown outline, preserving as much as possible inf
 ### Input
 
 ```
+
+### ***[8].* Prompt:** 2-Stage SWAG
+**Complexity:**
+- **Type:** Generative AI
+- **Personal effort score:** 4.5
+- **SWAG is:** Storytelling with Action Guidance (here single-context)
+
+
+**Usefulness:**
+- Personal and work inspiration
+- Later analysis by identification
+- Recreation
+
+**Key features:**
+- 2-Stage instruction
+- Input template
+
+**Full text:**
+```markdown
+Single-context realistically-written single-context 2-stage SWAG (Storytelling with Action Guidance: short intermediate story, then full story; output only the full story) task.
+
+Input request (empty value = not specified):
+- *Vibe:* 
+- *Writer archetypes:* 
+- *Event:* 
+- *Approx. word count:* 
+```
